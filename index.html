@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personality Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo" class="logo" />
+    <h1>Personality Quiz</h1>
+  </header>
+  <main id="quiz-container">
+    <div id="progress-bar"><div id="progress-fill"></div></div>
+    <div id="question-box">
+      <p id="question-text"></p>
+      <div id="answers"></div>
+    </div>
+    <button id="next-button">Next</button>
+    <div id="result" style="display:none;">
+      <h2>Your Personality Type:</h2>
+      <p id="result-text"></p>
+    </div>
+  </main>
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
